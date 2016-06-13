@@ -1,0 +1,76 @@
+/* BASE STYLES */
+
+* {
+	box-sizing: border-box;
+	font-family: Georgia, serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+}
+
+section {
+	padding: 0px;
+	margin: 10px;
+	background-color: #999999;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+p.title {
+	text-align: center;
+	float: right;
+	margin: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 125%;
+}
+
+p.text {
+	padding: 10px;
+	clear: right;
+	color: white;
+	font-size: 100%;
+}
+
+#T1 {
+	background-color: #D59898;
+}
+
+#T2 {
+	background-color: #C14543;
+}
+
+#T3 {
+	background-color: #E5D198;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+	.sect-desk {
+		width: 33.33%;
+		float: left;
+	}
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+	.sect-tabl-1 {
+		width: 100%;
+		clear: left;
+	}
+	.sect-tabl-2 {
+		width: 50%;
+		float: left;
+	}
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+	.sect-mob {
+		width: 100%;
+	}
+}
